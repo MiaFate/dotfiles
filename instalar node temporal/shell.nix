@@ -1,0 +1,12 @@
+{ pkgs ? import <nixpkgs> {} }:
+  pkgs.mkShell {
+    packages = with pkgs; [
+      nodejs
+      nodePackages.npm
+      python3
+      autoconf
+      automake
+      libtool
+      gnumake
+    ];
+}
