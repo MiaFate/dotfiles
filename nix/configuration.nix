@@ -125,7 +125,7 @@
     dejavu_fonts
     liberation_ttf
     source-code-pro
-    (nerdfonts.override { fonts = [ "JetBrainsMono" "Iosevka" ]; })
+    (nerdfonts.override { fonts = [ "JetBrainsMono" "Iosevka" "Meslo" ]; })
   ];
 
   # Packages 
