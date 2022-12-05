@@ -139,6 +139,7 @@
     nodejs
 
     # Global Apps
+    x11vnc
     vscode
     wget
     google-chrome
@@ -225,7 +226,7 @@
   services.trezord.enable = true;
 
   # Open ports in the firewall.
-  # networking.firewall.allowedTCPPorts = [ ... ];
+   networking.firewall.allowedTCPPorts = [ 5900 5901 ];
   # networking.firewall.allowedUDPPorts = [ ... ];
   # Or disable the firewall altogether.
   # networking.firewall.enable = false;
