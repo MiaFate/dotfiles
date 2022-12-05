@@ -63,7 +63,7 @@
   };
 
   # Configure coneclole keymap
-  console.keyMap = "latam";
+  console.keyMap = "la-latin1";
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
