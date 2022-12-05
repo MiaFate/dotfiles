@@ -109,8 +109,8 @@ source $ZSH/oh-my-zsh.sh
 alias alemaniaup='docker-compose -f $HOME/alemania/Infra/developmentEnv/Docker/docker-compose.yaml --env-file $HOME/alemania/Infra/developmentEnv/Docker/.env.local up -d'
 alias alemaniadown='docker-compose -f $HOME/alemania/Infra/developmentEnv/Docker/docker-compose.yaml --env-file $HOME/alemania/Infra/developmentEnv/Docker/.env.local down'
 alias ainfra='cd $HOME/alemania/Infra/developmentEnv/Docker'
-alias update-system='sudo nixos-rebuild switch'
-alias edit-config='sudo -E -s nvim /etc/nixos/configuration.nix'
+alias update-system="sudo nixos-rebuild switch"
+alias edit-config="sudo -E -s nvim /etc/nixos/configuration.nix"
 fpath+=${ZDOTDIR:-~}/.zsh_functions
 
 export PATH="$HOME/.local/bin:$PATH"

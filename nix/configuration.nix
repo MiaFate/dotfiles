@@ -63,7 +63,7 @@
   };
 
   # Configure coneclole keymap
-  console.keyMap = "la-latin1";
+  console.keyMap = "latam";
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
@@ -133,6 +133,7 @@
     ripgrep
     # Xorg
     xorg.xbacklight
+    nodejs
 
     # Global Apps
     wget
