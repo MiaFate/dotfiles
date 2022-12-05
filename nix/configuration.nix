@@ -94,6 +94,9 @@
     };
   };
 
+  #habiitar docker
+  virtualisation.docker.enable = true;
+
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.miafate = {
     isNormalUser = true;
@@ -136,6 +139,7 @@
     nodejs
 
     # Global Apps
+    vscode
     wget
     google-chrome
     firefox
