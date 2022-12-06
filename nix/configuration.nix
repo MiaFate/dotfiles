@@ -134,11 +134,12 @@
     cargo
     gcc
     ripgrep
+    nodejs
     # Xorg
     xorg.xbacklight
-    nodejs
 
     # Global Apps
+    xrdp
     x11vnc
     vscode
     wget
@@ -177,6 +178,7 @@
     i3lock-color
 
     # Theming
+    lxappearance-gtk2
     qogir-theme
     papirus-icon-theme
     pkgs.whitesur-gtk-theme
